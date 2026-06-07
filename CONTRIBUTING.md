@@ -29,15 +29,15 @@ We avoid: dead or abandoned projects with no working artifacts, pure marketing p
 4. If you are adding a new section, also add it to the **Contents** table of contents so the list stays navigable.
 5. Open a pull request and fill out the checklist in the template.
 
-## Style rules (enforced by CI)
+## Style rules
 
-This list follows the [awesome](https://github.com/sindresorhus/awesome) standard and is checked automatically with [`awesome-lint`](https://github.com/sindresorhus/awesome-lint) and a link checker on every pull request. Before submitting, you can run the same checks locally:
+This list follows the [awesome](https://github.com/sindresorhus/awesome) standard, checked with [`awesome-lint`](https://github.com/sindresorhus/awesome-lint). Run it locally before opening a pull request:
 
 ```sh
 npx awesome-lint
 ```
 
-Pull requests must pass CI before they can be merged. If the linter reports an issue, fix the formatting it points to — the rules cover capitalization, punctuation, link formatting, the table of contents, and dead links.
+Fix anything it reports — the rules cover capitalization, punctuation, link formatting, and the table of contents.
 
 ## Code of Conduct
 
