@@ -13,6 +13,7 @@
   - [Training & Research](#training--research)
 - [Language Models & Tools](#language-models--tools)
 - [Corpora & Datasets](#corpora--datasets)
+- [Dictionaries & Lexical Resources](#dictionaries--lexical-resources)
 - [Data Collection Tools](#data-collection-tools)
 - [Language Resources](#language-resources)
 - [Research & Papers](#research--papers)
@@ -54,6 +55,13 @@ Text and image datasets for training and evaluating Mon models. Open Mon corpora
 - [Mon Wikipedia](https://mnw.wikipedia.org/) - Mon-language edition of Wikipedia with several thousand articles, a widely used source of running Mon text for corpus building.
 - [mon.monnews.org](https://mon.monnews.org/) - Mon-language news site that serves as a primary source of running Mon text; harvestable with the tools in [Data Collection Tools](#data-collection-tools).
 - [Mon e-book library](https://fliphtml5.com/bookcase/yywzh) - Collection of a few hundred digitized Mon-language books, mostly Buddhist and Pali texts, readable online as flipbooks.
+
+## Dictionaries & Lexical Resources
+
+Dictionaries and structured lexical data for Mon.
+
+- [MonMonDictOCR](https://github.com/MonDevHub/MonMonDictOCR) - Web app that pairs OCR with a Gemini LLM to build a Mon dictionary, extracting text from images and generating word etymology and meanings in Mon, built with React, TypeScript, and Vite.
+- [MonDictDB](https://github.com/Barnista/MonDictDB) - Open-source SQL dictionary database for Mon with translations across Mon, Thai, Burmese, and English plus IPA notation, synonyms, and word relationships, backed by MySQL with Python services and a web interface.
 
 ## Data Collection Tools
 
