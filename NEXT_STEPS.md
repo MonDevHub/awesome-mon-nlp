@@ -32,6 +32,42 @@ the number or the count drifts again.
 
 ---
 
+## Licence check on the fonts entry, 2026-08-13
+
+`CONTRIBUTING.md:9-11` holds an entry to *available* and *usable*. It says nothing
+about redistribution terms, and one entry needed it to.
+
+**Myanmar Unicode Fonts** ships 82 `.ttf` files, has no `LICENSE` anywhere in its
+tree, and its README does not mention licensing — GitHub's licence API returns 404
+for it, and `master` has not moved since `f313142`, 2025-01-31. Its README credits
+six Box, MediaFire and pCloud folders, which is a download trail rather than a
+licence trail.
+
+The fonts' own `name` table settles what the repository does not state. Read name
+IDs 0, 13 and 14 over `**/*.ttf` with `fonttools`:
+
+| Declared in the font's own metadata | Files |
+| :--- | ---: |
+| SIL OFL | 32 |
+| Apache 2.0 | 26 |
+| Something else, or a vendor EULA | 22 |
+| Nothing at all | 2 |
+
+Those 22 are why the entry now carries a warning. They include Microsoft's
+`mmrtext.ttf` under the Windows product EULA, a Samsung font, and YoeYar-One, which
+licenses per purchased seat on at most three computers. None of those are
+redistributable, and a reader taking the collection at its word would not know.
+
+**Kept rather than dropped.** The four families the entry names — Padauk,
+Pyidaungsu, Noto Sans Myanmar and MON3 Anonta — each declare OFL or Apache, and
+MON3 Anonta is OFL 1.1 and the one genuinely Mon-specific font in the set.
+Dropping the entry would cost the most convenient source of the font a Mon project
+actually needs, to avoid a problem one sentence solves. The entry states the mix
+and tells the reader to check. It does not claim a licence for a repository that
+states none.
+
+---
+
 ## 1. Make the link check a command, not an afternoon
 
 The check above took one shell loop. Nothing in the repository runs it.
