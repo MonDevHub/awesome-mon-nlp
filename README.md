@@ -62,7 +62,8 @@ Dictionaries and structured lexical data for Mon.
 
 Scripts, fonts, encoding, and input tooling needed to handle Mon text correctly.
 
-- [Unicode Myanmar block (U+1000–U+109F)](https://www.unicode.org/charts/PDF/U1000.pdf) - Unicode chart for the Myanmar script, which encodes Mon along with its language-specific characters.
+- [Unicode Myanmar block (U+1000–U+109F)](https://www.unicode.org/charts/PDF/U1000.pdf) - Unicode chart for the Myanmar script, which encodes Mon along with its language-specific characters at U+1028, U+1033–U+1034 and U+105A–U+1060.
+- [Myanmar Unicode Fonts](https://github.com/AungMyoKyaw/Myanmar-Unicode-Fonts) - Collection of 82 Myanmar Unicode font files, including Padauk, Pyidaungsu, Noto Sans Myanmar, and MON3 Anonta; those four are the Mon-relevant ones and each declares SIL OFL or Apache 2.0 in its own embedded metadata. Coverage of the Mon-specific codepoints varies by family. Check the licence of any font you take from it before redistributing: the repository states none of its own, and the other files are mixed, including a vendor-EULA font and a paid-licence family.
 
 ## Research & Papers
 

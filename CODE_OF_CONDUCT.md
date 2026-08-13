@@ -7,39 +7,31 @@ everyone, regardless of age, body size, disability, ethnicity, gender identity
 and expression, level of experience, nationality, personal appearance, race,
 religion, or sexual identity and orientation.
 
-## Our standards
+## Standards
 
-Examples of behavior that helps build a welcoming community:
+Be respectful of people and of differing views, and take feedback in good faith.
 
-- Using welcoming and inclusive language.
-- Being respectful of differing viewpoints and experiences.
-- Gracefully accepting constructive feedback.
-- Focusing on what is best for the community and the Mon NLP ecosystem.
-
-Examples of unacceptable behavior:
+Not acceptable:
 
 - Harassment, insults, or derogatory comments, public or private.
 - Trolling or deliberately disruptive behavior.
-- Publishing others' private information without explicit permission.
-- Other conduct that would reasonably be considered inappropriate in a
-  professional setting.
+- Publishing others' private information without their permission.
+- Anything else that would be out of place in a professional setting.
 
 ## Scope
 
-This Code of Conduct applies within all project spaces — issues, pull requests,
-discussions, and any other channel — and when an individual is representing the
-project in public spaces.
+This applies in every project space, including issues and pull requests, and to
+anyone representing the project in public.
 
 ## Enforcement
 
-Maintainers are responsible for clarifying these standards and may remove,
-edit, or reject contributions that do not align with them.
+Maintainers clarify these standards and may edit, remove, or reject
+contributions that do not meet them.
 
-To report unacceptable behavior, open a private report through the repository's
-**Report content** option on GitHub, or contact the
-[MonDevHub](https://github.com/MonDevHub) maintainers directly. All reports will
-be reviewed and handled confidentially.
+To report something, use GitHub's **Report repository** link on the repository
+page, or contact a [MonDevHub](https://github.com/MonDevHub) maintainer
+directly. Reports are reviewed and handled confidentially.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org).
+Adapted from the [Contributor Covenant](https://www.contributor-covenant.org).
