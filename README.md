@@ -23,6 +23,7 @@ Tools for turning images of Mon script into text. The projects below form a sing
 
 ### Applications
 
+- [monocr-cli](https://crates.io/crates/monocr-cli) - Batch OCR over books, PDFs and images from the command line, on-device. `cargo install monocr-cli`.
 - [MonOCR](https://github.com/MonDevHub/monocr) - Web, Android, and iOS apps that recognize Mon script fully on-device, with no data leaving the device. Try it at [ocr.mondevhub.com](https://ocr.mondevhub.com).
 
 ### Models & Weights
@@ -31,7 +32,7 @@ Tools for turning images of Mon script into text. The projects below form a sing
 
 ### SDKs & Libraries
 
-- [monocr-onnx](https://github.com/MonDevHub/monocr-onnx) - Privacy-first, on-device OCR engine powered by ONNX Runtime, with unified cross-platform SDKs for Python (`monocr-onnx`), JavaScript/Node.js (`monocr`), Go, and Rust.
+- [monocr-onnx](https://github.com/MonDevHub/monocr-onnx) - On-device OCR engine powered by ONNX Runtime, with four bindings against one pinned model: Python ([`monocr-onnx`](https://pypi.org/project/monocr-onnx/)), Node.js ([`monocr`](https://www.npmjs.com/package/monocr)), [Go](https://pkg.go.dev/github.com/MonDevHub/monocr-onnx/go) and Rust ([`monocr`](https://crates.io/crates/monocr)). The bindings are checked against each other and do not fully agree; the repository publishes the measurement.
 - [monocr](https://github.com/janakhpon/monocr) - Lightweight Python OCR package and `monocr` CLI for Mon text, with on-device inference and weights pulled from the Hugging Face Hub. Install with `pip install monocr`.
 
 ## Language Models & Tools
@@ -39,8 +40,7 @@ Tools for turning images of Mon script into text. The projects below form a sing
 Generative models, language identification, and other NLP building blocks for Mon.
 
 - [mon_tokenizer](https://github.com/Code-Yay-Mal/mon_tokenizer) - Unigram tokenizer for Mon, Burmese and English with full byte fallback, so unseen characters round-trip instead of being deleted. Vocabulary 64,256; the normalizer is serialized inside the artifact. Install with `pip install mon-tokenizer`; weights on the [Hugging Face Hub](https://huggingface.co/janakhpon/mon_tokenizer).
-- [mon-language-detector](https://github.com/janakhpon/mon-language-detector) - Python library that classifies text as Mon, Burmese, or English using a fastText model, for server-side filtering or on-device use.
-- [mon-gpt-playground](https://github.com/janakhpon/mon-gpt-playground) - Streamlit app for testing and comparing the Mon-LM language models (0.5B, 1.5B, and 3B) fine-tuned for Mon.
+- [mon-language-detector](https://github.com/janakhpon/mon-language-detector) - Classifies text as Mon, Burmese or English with a fastText model, and answers `unknown` rather than guessing when a line is in another Myanmar-script language. The model ships inside the wheel. Install with `pip install mon-language-detector`.
 
 ## Corpora & Datasets
 
@@ -70,6 +70,12 @@ Scripts, fonts, encoding, and input tooling needed to handle Mon text correctly.
 Academic and technical work on Mon NLP.
 
 - [Mon language (ISO 639-3: mnw)](https://iso639-3.sil.org/code/mnw) - ISO 639-3 reference entry for Mon, a useful starting point for language metadata.
+- [Journal of the Siam Society open archive](https://thesiamsociety.org/journal-of-the-siam-society/) - Back issues are free to read and carry a long run of scholarship on the Mon. Five are directly on Mon language, history and community:
+  - Halliday, *The Funeral Customs of the Mons* (vol. 16)
+  - Gordon H. Luce, *Dvaravati and Old Burma* (vol. 53) - on the Mon polity that preceded and shaped early Burma
+  - Michael Smithies, *Village Mons of Bangkok* (vol. 60)
+  - Brian L. Foster, *Ethnic Identity of the Mons in Thailand* (vol. 61)
+  - Nai Pan Hla, *The Major Role of the Mons in Southeast Asia* (vol. 79)
 
 ## Related Projects & Community
 
