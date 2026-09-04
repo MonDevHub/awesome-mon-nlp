@@ -70,6 +70,12 @@ Scripts, fonts, encoding, and input tooling needed to handle Mon text correctly.
 Academic and technical work on Mon NLP.
 
 - [Mon language (ISO 639-3: mnw)](https://iso639-3.sil.org/code/mnw) - ISO 639-3 reference entry for Mon, a useful starting point for language metadata.
+- [Journal of the Siam Society open archive](https://thesiamsociety.org/journal-of-the-siam-society/) - Back issues are free to read and carry a long run of scholarship on the Mon. Five are directly on Mon language, history and community:
+  - Halliday, *The Funeral Customs of the Mons* (vol. 16)
+  - Gordon H. Luce, *Dvaravati and Old Burma* (vol. 53) - on the Mon polity that preceded and shaped early Burma
+  - Michael Smithies, *Village Mons of Bangkok* (vol. 60)
+  - Brian L. Foster, *Ethnic Identity of the Mons in Thailand* (vol. 61)
+  - Nai Pan Hla, *The Major Role of the Mons in Southeast Asia* (vol. 79)
 
 ## Related Projects & Community
 
