@@ -19,12 +19,12 @@
 
 ## OCR & Text Recognition
 
-Tools for turning images of Mon script into text. The projects below form a single pipeline: the Hugging Face repository distributes the weights, monocr-onnx and monocr run inference, and the MonOCR apps ship it to end users.
+Tools for turning images of Mon script into text. The projects below form a single pipeline: the Hugging Face repository distributes the weights, monocr-onnx and monocr run inference, and the MonOCR apps are where end users run it.
 
 ### Applications
 
 - [monocr-cli](https://crates.io/crates/monocr-cli) - Batch OCR over books, PDFs and images from the command line, on-device. `cargo install monocr-cli`.
-- [MonOCR](https://github.com/MonDevHub/monocr) - Web, Android, and iOS apps that recognize Mon script fully on-device, with no data leaving the device. Try it at [ocr.mondevhub.com](https://ocr.mondevhub.com).
+- [MonOCR](https://github.com/MonDevHub/monocr) - Web, Android, and iOS apps that recognize Mon script fully on-device; an image leaves the device only if the user opts in to submit a correction. Try the web app at [ocr.mondevhub.com](https://ocr.mondevhub.com). The Android and iOS apps build from source and are not in the app stores yet.
 
 ### Models & Weights
 
