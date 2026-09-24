@@ -24,7 +24,7 @@ Tools for turning images of Mon script into text. The projects below form a sing
 ### Applications
 
 - [monocr-cli](https://crates.io/crates/monocr-cli) - Batch OCR over books, PDFs and images from the command line, on-device. `cargo install monocr-cli`.
-- [MonOCR](https://github.com/MonDevHub/monocr) - Web, Android, and iOS apps that recognize Mon script fully on-device; an image leaves the device only if the user opts in to submit a correction. Try the web app at [ocr.mondevhub.com](https://ocr.mondevhub.com). The Android and iOS apps build from source and are not in the app stores yet.
+- [MonOCR](https://github.com/MonDevHub/monocr) - Web, Android, and iOS apps that recognize Mon script fully on-device; an image leaves the device only if the user opts in to submit it, as a correction or as a contribution to the training data. Try the web app at [ocr.mondevhub.com](https://ocr.mondevhub.com). The Android and iOS apps build from source and are not in the app stores yet.
 
 ### Models & Weights
 
