@@ -28,7 +28,7 @@ Tools for turning images of Mon script into text. The projects below form a sing
 
 ### Models & Weights
 
-- [monocr (Hugging Face)](https://huggingface.co/janakhpon/monocr) - Pretrained MonOCR weights published in ONNX, Core ML, and PyTorch formats, trained on roughly 3M synthetic samples. The card's CER 0.025 and WER 0.211 are validation figures, measured on 30,000 lines rendered by the same generator as the training data — so they bound the renderer as much as the model. No evaluation on photographed pages has been published.
+- [monocr (Hugging Face)](https://huggingface.co/janakhpon/monocr) - Pretrained MonOCR weights (v3.5, 11.55M parameters) published in ONNX and Core ML formats, with no PyTorch checkpoint. The card reports a held-out CER of 0.0100 on 150 unseen lines in a typeface the model never trained on, but the same generator rendered the synthetic training and test images, so it measures unseen text rather than an unseen renderer. No evaluation on photographed pages has been published.
 
 ### SDKs & Libraries
 
