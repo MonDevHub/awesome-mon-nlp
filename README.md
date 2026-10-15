@@ -46,7 +46,7 @@ Generative models, language identification, and other NLP building blocks for Mo
 
 Text and image datasets for training and evaluating Mon models. Open Mon corpora are scarce; if you maintain or know of one, please see [Contributing](#contributing).
 
-- [MonCorpusCollection](https://github.com/MonDevHub/MonCorpusCollection) - Mon-language text corpus of around one million lines gathered from Wikipedia, news agencies, and social media for NLP research and model training.
+- [MonCorpusCollection](https://github.com/MonDevHub/MonCorpusCollection) - Mon-language text corpus of 1,253,139 lines, 759,294 of them non-blank (roughly 700K usable), from nine sources; only two of the nine carry established terms, so read its [LICENSE-CORPUS.md](https://github.com/MonDevHub/MonCorpusCollection/blob/main/LICENSE-CORPUS.md) before redistributing.
 - [Mon Wikipedia](https://mnw.wikipedia.org/) - Mon-language edition of Wikipedia with several thousand articles, a widely used source of running Mon text for corpus building.
 - [mon.monnews.org](https://mon.monnews.org/) - Mon-language news site that serves as a primary source of running Mon text.
 - [Mon e-book library](https://fliphtml5.com/bookcase/yywzh) - Collection of a few hundred digitized Mon-language books, mostly Buddhist and Pali texts, readable online as flipbooks.
