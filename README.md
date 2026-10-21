@@ -2,7 +2,7 @@
 
 > A curated list of NLP resources, tools, datasets, and models for the Mon language (ISO 639-3: `mnw`).
 
-[Mon](https://en.wikipedia.org/wiki/Mon_language) is spoken by roughly one million people across Myanmar and Thailand, and [UNESCO classifies it as vulnerable](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger). Open tooling for it has been scarce. This list collects the software, models, and data that exist for working with Mon (ISO 639-3: `mnw`) — starting with the open-source MonOCR ecosystem and growing to cover the wider field. Contributions are welcome.
+[Mon](https://en.wikipedia.org/wiki/Mon_language) is spoken by roughly one million people across Myanmar and Thailand, and [UNESCO's 2010 atlas listed it as vulnerable](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger). Open tooling for it has been scarce. This list collects the software, models, and data that exist for working with Mon (ISO 639-3: `mnw`) — starting with the open-source MonOCR ecosystem and growing to cover the wider field. Contributions are welcome.
 
 ## Contents
 
