@@ -2,7 +2,7 @@
 
 > A curated list of NLP resources, tools, datasets, and models for the Mon language (ISO 639-3: `mnw`).
 
-[Mon](https://en.wikipedia.org/wiki/Mon_language) is spoken by roughly one million people across Myanmar and Thailand, and [UNESCO's 2010 atlas listed it as vulnerable](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger). Open tooling for it has been scarce. This list collects the software, models, and data that exist for working with Mon (ISO 639-3: `mnw`) — starting with the open-source MonOCR ecosystem and growing to cover the wider field. Contributions are welcome.
+[Mon](https://en.wikipedia.org/wiki/Mon_language) is spoken by roughly one million people across Myanmar and Thailand, and [UNESCO's 2010 atlas listed it as vulnerable](https://en.wikipedia.org/wiki/Atlas_of_the_World%27s_Languages_in_Danger). Open tooling for it has been scarce. This list collects the software, models, and data that exist for working with Mon.
 
 ## Contents
 
@@ -37,7 +37,7 @@ Tools for turning images of Mon script into text. The projects below form a sing
 
 ## Language Models & Tools
 
-Generative models, language identification, and other NLP building blocks for Mon.
+Tokenization, language identification, and other NLP building blocks for Mon.
 
 - [mon_tokenizer](https://github.com/Code-Yay-Mal/mon_tokenizer) - Unigram tokenizer for Mon, Burmese and English with full byte fallback, so unseen characters round-trip instead of being deleted. Vocabulary 64,256; the normalizer is serialized inside the artifact. Install with `pip install mon-tokenizer`; weights on the [Hugging Face Hub](https://huggingface.co/janakhpon/mon_tokenizer).
 - [mon-language-detector](https://github.com/janakhpon/mon-language-detector) - Classifies text as Mon, Burmese or English with a fastText model, and answers `unknown` rather than guessing when a line is in another Myanmar-script language. The model ships inside the wheel. Install with `pip install mon-language-detector`.
@@ -53,8 +53,6 @@ Text and image datasets for training and evaluating Mon models. Open Mon corpora
 
 ## Dictionaries & Lexical Resources
 
-Dictionaries and structured lexical data for Mon.
-
 - [MonMonDictOCR](https://github.com/MonDevHub/MonMonDictOCR) - Web app that pairs OCR with a Gemini LLM to build a Mon dictionary, extracting text from images and generating word etymology and meanings in Mon, built with React, TypeScript, and Vite.
 - [MonDictDB](https://github.com/Barnista/MonDictDB) - Open-source SQL dictionary database for Mon with translations across Mon, Thai, Burmese, and English plus IPA notation, synonyms, and word relationships, backed by MySQL with Python services and a web interface.
 
@@ -66,8 +64,6 @@ Scripts, fonts, encoding, and input tooling needed to handle Mon text correctly.
 - [Myanmar Unicode Fonts](https://github.com/AungMyoKyaw/Myanmar-Unicode-Fonts) - Collection of 82 Myanmar Unicode font files, including Padauk, Pyidaungsu, Noto Sans Myanmar, and MON3 Anonta; those four are the Mon-relevant ones and each declares SIL OFL or Apache 2.0 in its own embedded metadata. Coverage of the Mon-specific codepoints varies by family. Check the licence of any font you take from it before redistributing: the repository states none of its own, and the other files are mixed, including a vendor-EULA font and a paid-licence family.
 
 ## Research & Papers
-
-Academic and technical work on Mon NLP.
 
 - [Mon language (ISO 639-3: mnw)](https://iso639-3.sil.org/code/mnw) - ISO 639-3 reference entry for Mon, a useful starting point for language metadata.
 - [Journal of the Siam Society open archive](https://thesiamsociety.org/journal-of-the-siam-society/) - Back issues are free to read and carry a long run of scholarship on the Mon. Five are directly on Mon language, history and community.
@@ -84,4 +80,4 @@ Academic and technical work on Mon NLP.
 
 ## Contributing
 
-Contributions are welcome! Read the [contribution guidelines](CONTRIBUTING.md) first, and please follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+Read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request, and follow the [Code of Conduct](CODE_OF_CONDUCT.md).
