@@ -28,7 +28,7 @@ Tools for turning images of Mon script into text. The projects below form a sing
 
 ### Models & Weights
 
-- [monocr (Hugging Face)](https://huggingface.co/janakhpon/monocr) - Pretrained MonOCR weights (v3.5, 11.55M parameters) published in ONNX and Core ML formats, with no PyTorch checkpoint. The card reports a held-out CER of 0.0100 on 150 unseen lines in a typeface the model never trained on, but the same generator rendered the synthetic training and test images, so it measures unseen text rather than an unseen renderer. No evaluation on photographed pages has been published.
+- [monocr (Hugging Face)](https://huggingface.co/janakhpon/monocr) - Pretrained MonOCR weights (v3.5, 11.55M parameters) published in ONNX and Core ML formats, with no PyTorch checkpoint. The card reports a held-out CER of 0.0095 (95% interval 0.0079 to 0.0111) on 1,997 synthetic Mon lines in a typeface design the model never trained on, but the same generator rendered the training and test images, so it measures unseen text rather than an unseen renderer. No evaluation on photographed pages has been published.
 
 ### SDKs & Libraries
 
@@ -46,7 +46,7 @@ Tokenization, language identification, and other NLP building blocks for Mon.
 
 Text and image datasets for training and evaluating Mon models. Open Mon corpora are scarce; if you maintain or know of one, please see [Contributing](#contributing).
 
-- [MonCorpusCollection](https://github.com/MonDevHub/MonCorpusCollection) - Mon-language text corpus of 1,253,139 lines, 759,294 of them non-blank (roughly 700K usable), from nine sources; only two of the nine carry established terms, so read its [LICENSE-CORPUS.md](https://github.com/MonDevHub/MonCorpusCollection/blob/main/LICENSE-CORPUS.md) before redistributing.
+- [MonCorpusCollection](https://github.com/MonDevHub/MonCorpusCollection) - Mon-language text corpus of 1,243,085 lines, 749,243 of them non-blank (roughly 700K usable), from nine sources; only two of the nine carry established terms, so read its [LICENSE-CORPUS.md](https://github.com/MonDevHub/MonCorpusCollection/blob/main/LICENSE-CORPUS.md) before redistributing.
 - [Mon Wikipedia](https://mnw.wikipedia.org/) - Mon-language edition of Wikipedia with several thousand articles, a widely used source of running Mon text for corpus building.
 - [mon.monnews.org](https://mon.monnews.org/) - Mon-language news site that serves as a primary source of running Mon text.
 - [Mon e-book library](https://fliphtml5.com/bookcase/yywzh) - Collection of a few hundred digitized Mon-language books, mostly Buddhist and Pali texts, readable online as flipbooks.
